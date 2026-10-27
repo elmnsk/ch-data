@@ -1,12 +1,14 @@
 {
-  "version": "2026.10.27.1541",
-  "timestamp": 1793115713,
-  "total_cameras": 54272,
-  "bin_size_bytes": 705536,
-  "bin_sha256": "f7632f4881cd713f38e3837a23b693a1207b54b5cae2ab576ae3099d27848df8",
-  "gz_size_bytes": 519986,
-  "gz_sha256": "1e6553799dc1ed837fd1289b84a67f77814e8ce5b1a850c628a58030e3a5a87d",
+  "version": "2026.10.27.1635",
+  "timestamp": 1793118905,
+  "total_cameras": 91329,
+  "bin_size_bytes": 1187277,
+  "bin_sha256": "8c8bbbd6c2d8986bcea55f56527bff87346fe6c3311261fd50d4f665685dcccb",
+  "gz_size_bytes": 843321,
+  "gz_sha256": "2eab2c6c84a4bfe044ceebf84dd73a8db736ed7b33adfa886db67d88274da597",
   "frame_size": 13,
+  "schema_version": 1,
+  "synthetic": false,
   "scale_factor": 11930464.0,
   "supported_car_platforms": [
     "Chery Tiggo 4",
@@ -14,5 +16,148 @@
     "Chery Tiggo 8 Pro",
     "Chery Tiggo 8 Pro Max"
   ],
-  "min_android_api": 28
+  "min_android_api": 28,
+  "build_commit": "e27863a7922b697084a832d99c8c624679d95c77",
+  "countries": [
+    "RU",
+    "KZ",
+    "BY"
+  ],
+  "sources_fetched_at": 1793118901,
+  "sources": [
+    {
+      "id": "speedcamonline:RU:Rus",
+      "provider": "speedcamonline",
+      "country": "RU",
+      "file": "Rus.txt",
+      "url": "https://speedcamonline.ru/igo/Rus/",
+      "records": 74317,
+      "sha256": "6ee39ae3fedcd59b4ab442a6ba258a86b3fb580e4673fc726b4eafc18d4a8e65",
+      "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
+      "terms_url": "https://speedcamonline.ru/",
+      "outside_coverage_records": 1198,
+      "retained_records": 73055
+    },
+    {
+      "id": "speedcamonline:RU:strelki",
+      "provider": "speedcamonline",
+      "country": "RU",
+      "file": "strelki.txt",
+      "url": "https://speedcamonline.ru/igo/strelki/",
+      "records": 68842,
+      "sha256": "94dca8f914c1eb6ddb589bcbb7f3149ee5782892b1e22883ef8a20edde2b2e26",
+      "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
+      "terms_url": "https://speedcamonline.ru/",
+      "outside_coverage_records": 1150,
+      "retained_records": 0
+    },
+    {
+      "id": "speedcamonline:KZ:kz",
+      "provider": "speedcamonline",
+      "country": "KZ",
+      "file": "kz.txt",
+      "url": "https://speedcamonline.ru/igo/kz/",
+      "records": 10822,
+      "sha256": "7c9a3c40597a23a0161424853a3ebc20c1d2f1e861f7b31cda8ad75fff2503e8",
+      "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
+      "terms_url": "https://speedcamonline.ru/",
+      "outside_coverage_records": 0,
+      "retained_records": 10812
+    },
+    {
+      "id": "speedcamonline:BY:by",
+      "provider": "speedcamonline",
+      "country": "BY",
+      "file": "by.txt",
+      "url": "https://speedcamonline.ru/igo/by/",
+      "records": 1219,
+      "sha256": "4245030d89ada1764351beb5576212ef563d77114d1ab6fd4a2c1039771d9ec7",
+      "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
+      "terms_url": "https://speedcamonline.ru/",
+      "outside_coverage_records": 0,
+      "retained_records": 94
+    },
+    {
+      "id": "osm:RU:osm_RU",
+      "provider": "osm",
+      "country": "RU",
+      "file": "osm_RU.txt",
+      "url": "https://download.geofabrik.de/russia-latest.osm.pbf",
+      "records": 11706,
+      "sha256": "62700bd7afc8ad4a6721587325ef2c1920eaf23d4ef16d823397d880c8523863",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution_url": "https://www.openstreetmap.org/copyright",
+      "snapshot_at": "2026-10-26T21:24:46Z",
+      "selection": "node[highway=speed_camera]; spot-speed only",
+      "outside_coverage_records": 0,
+      "retained_records": 6891
+    },
+    {
+      "id": "osm:KZ:osm_KZ",
+      "provider": "osm",
+      "country": "KZ",
+      "file": "osm_KZ.txt",
+      "url": "https://download.geofabrik.de/asia/kazakhstan-latest.osm.pbf",
+      "records": 300,
+      "sha256": "82be5e50a45fbf7bc31885c625456c89f595ae364ffdbc3d380d3495377b83ab",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution_url": "https://www.openstreetmap.org/copyright",
+      "snapshot_at": "2026-10-26T21:24:46Z",
+      "selection": "node[highway=speed_camera]; spot-speed only",
+      "outside_coverage_records": 1,
+      "retained_records": 189
+    },
+    {
+      "id": "osm:BY:osm_BY",
+      "provider": "osm",
+      "country": "BY",
+      "file": "osm_BY.txt",
+      "url": "https://download.geofabrik.de/europe/belarus-latest.osm.pbf",
+      "records": 575,
+      "sha256": "9c377c29901f2d15116364372bbdaec8a8f0fe0ba7c98b32ed06719c8a03db6c",
+      "attribution": "© OpenStreetMap contributors",
+      "license": "ODbL-1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution_url": "https://www.openstreetmap.org/copyright",
+      "snapshot_at": "2026-10-26T21:24:46Z",
+      "selection": "node[highway=speed_camera]; spot-speed only",
+      "outside_coverage_records": 0,
+      "retained_records": 288
+    }
+  ],
+  "input_records": 167781,
+  "outside_coverage_records": 2349,
+  "duplicates_removed": 74103,
+  "country_counts": {
+    "RU": 78375,
+    "KZ": 11081,
+    "BY": 1873
+  },
+  "country_count_method": "Geofabrik extract polygons; source country resolves border overlaps",
+  "boundaries": [
+    {
+      "country": "RU",
+      "url": "https://download.geofabrik.de/russia.poly",
+      "file": "RU.poly",
+      "sha256": "94313a5b13fd2afef4d12998e36488f10100162f48e2df06758317ce27972c46"
+    },
+    {
+      "country": "KZ",
+      "url": "https://download.geofabrik.de/asia/kazakhstan.poly",
+      "file": "KZ.poly",
+      "sha256": "b684c1acf20f64cbe9d3488ffc6afb26b96f9552844b97b107d5b89360e84cbd"
+    },
+    {
+      "country": "BY",
+      "url": "https://download.geofabrik.de/europe/belarus.poly",
+      "file": "BY.poly",
+      "sha256": "426f5d237d2ac7fe48b28b3ad34b7a0949c429fd90801b3b91cf7de31df596d2"
+    }
+  ],
+  "custom_records": 0,
+  "source_archive": "source-feeds.zip"
 }
