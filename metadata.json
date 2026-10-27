@@ -1,11 +1,11 @@
 {
-  "version": "2026.10.27.1635",
-  "timestamp": 1793118905,
-  "total_cameras": 91329,
-  "bin_size_bytes": 1187277,
-  "bin_sha256": "8c8bbbd6c2d8986bcea55f56527bff87346fe6c3311261fd50d4f665685dcccb",
-  "gz_size_bytes": 843321,
-  "gz_sha256": "2eab2c6c84a4bfe044ceebf84dd73a8db736ed7b33adfa886db67d88274da597",
+  "version": "2026.10.27.1953",
+  "timestamp": 1793130788,
+  "total_cameras": 91330,
+  "bin_size_bytes": 1187290,
+  "bin_sha256": "453cfc0f0b8101d24c46c039de7e08d5a4ff963f1eef95f6b2caf2b0f17ed331",
+  "gz_size_bytes": 843338,
+  "gz_sha256": "3c10af71a1bc2d79e58409efd0b975273eec661df9432f1e82238ab3330ea285",
   "frame_size": 13,
   "schema_version": 1,
   "synthetic": false,
@@ -23,7 +23,7 @@
     "KZ",
     "BY"
   ],
-  "sources_fetched_at": 1793118901,
+  "sources_fetched_at": 1793130784,
   "sources": [
     {
       "id": "speedcamonline:RU:Rus",
@@ -31,12 +31,12 @@
       "country": "RU",
       "file": "Rus.txt",
       "url": "https://speedcamonline.ru/igo/Rus/",
-      "records": 74317,
-      "sha256": "6ee39ae3fedcd59b4ab442a6ba258a86b3fb580e4673fc726b4eafc18d4a8e65",
+      "records": 74318,
+      "sha256": "273feec0dc38e189d62d938af043ee2479ce42e1d1430a76234b573367603563",
       "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
       "terms_url": "https://speedcamonline.ru/",
       "outside_coverage_records": 1198,
-      "retained_records": 73055
+      "retained_records": 73056
     },
     {
       "id": "speedcamonline:RU:strelki",
@@ -44,8 +44,8 @@
       "country": "RU",
       "file": "strelki.txt",
       "url": "https://speedcamonline.ru/igo/strelki/",
-      "records": 68842,
-      "sha256": "94dca8f914c1eb6ddb589bcbb7f3149ee5782892b1e22883ef8a20edde2b2e26",
+      "records": 68845,
+      "sha256": "3745c710d69c8f1f3ab3777316280d76b20e5d2745f662732d5eb542fa663767",
       "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
       "terms_url": "https://speedcamonline.ru/",
       "outside_coverage_records": 1150,
@@ -129,11 +129,11 @@
       "retained_records": 288
     }
   ],
-  "input_records": 167781,
+  "input_records": 167785,
   "outside_coverage_records": 2349,
-  "duplicates_removed": 74103,
+  "duplicates_removed": 74106,
   "country_counts": {
-    "RU": 78375,
+    "RU": 78376,
     "KZ": 11081,
     "BY": 1873
   },
