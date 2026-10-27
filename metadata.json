@@ -1,11 +1,11 @@
 {
-  "version": "2026.10.27.1219",
-  "timestamp": 1793103576,
-  "total_cameras": 54271,
-  "bin_size_bytes": 705523,
-  "bin_sha256": "56b24b78827229629a900097143f0245916631b55d760f49ea25db76c2c57f87",
-  "gz_size_bytes": 519975,
-  "gz_sha256": "f38cbffe976bda589407ee304ac353e9dbf0f3b09b71934ae9de6463a0b8eb60",
+  "version": "2026.10.27.1541",
+  "timestamp": 1793115713,
+  "total_cameras": 54272,
+  "bin_size_bytes": 705536,
+  "bin_sha256": "f7632f4881cd713f38e3837a23b693a1207b54b5cae2ab576ae3099d27848df8",
+  "gz_size_bytes": 519986,
+  "gz_sha256": "1e6553799dc1ed837fd1289b84a67f77814e8ce5b1a850c628a58030e3a5a87d",
   "frame_size": 13,
   "scale_factor": 11930464.0,
   "supported_car_platforms": [
