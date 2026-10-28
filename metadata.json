@@ -1,11 +1,11 @@
 {
-  "version": "2026.10.27.1953",
-  "timestamp": 1793130788,
-  "total_cameras": 91330,
-  "bin_size_bytes": 1187290,
-  "bin_sha256": "453cfc0f0b8101d24c46c039de7e08d5a4ff963f1eef95f6b2caf2b0f17ed331",
-  "gz_size_bytes": 843338,
-  "gz_sha256": "3c10af71a1bc2d79e58409efd0b975273eec661df9432f1e82238ab3330ea285",
+  "version": "2026.10.28.0937",
+  "timestamp": 1793180232,
+  "total_cameras": 91340,
+  "bin_size_bytes": 1187420,
+  "bin_sha256": "23ff1459a8007af89456e905b0194e1c9ca9a997f118e856ae1d1d51cb56eb16",
+  "gz_size_bytes": 843392,
+  "gz_sha256": "22bb45394156431132e9ff2df5efcc7d6d8d53b5a13b6fa72c31472d88f5b13a",
   "frame_size": 13,
   "schema_version": 1,
   "synthetic": false,
@@ -17,13 +17,13 @@
     "Chery Tiggo 8 Pro Max"
   ],
   "min_android_api": 28,
-  "build_commit": "e27863a7922b697084a832d99c8c624679d95c77",
+  "build_commit": "398714bf7160c4d424b7010ecccfb05ff9375686",
   "countries": [
     "RU",
     "KZ",
     "BY"
   ],
-  "sources_fetched_at": 1793130784,
+  "sources_fetched_at": 1793180229,
   "sources": [
     {
       "id": "speedcamonline:RU:Rus",
@@ -31,12 +31,12 @@
       "country": "RU",
       "file": "Rus.txt",
       "url": "https://speedcamonline.ru/igo/Rus/",
-      "records": 74318,
-      "sha256": "273feec0dc38e189d62d938af043ee2479ce42e1d1430a76234b573367603563",
+      "records": 74314,
+      "sha256": "1e8c1ccc39b8c047343c0e42bb7cb0b9668c7b4cb34b59ac3ca0a72119ce7641",
       "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
       "terms_url": "https://speedcamonline.ru/",
-      "outside_coverage_records": 1198,
-      "retained_records": 73056
+      "outside_coverage_records": 1196,
+      "retained_records": 73054
     },
     {
       "id": "speedcamonline:RU:strelki",
@@ -44,11 +44,11 @@
       "country": "RU",
       "file": "strelki.txt",
       "url": "https://speedcamonline.ru/igo/strelki/",
-      "records": 68845,
-      "sha256": "3745c710d69c8f1f3ab3777316280d76b20e5d2745f662732d5eb542fa663767",
+      "records": 68841,
+      "sha256": "b7ace1d7cf95ca135c10f3869c064dff455e7d5fd00e63d196af2f0d6a32f15e",
       "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
       "terms_url": "https://speedcamonline.ru/",
-      "outside_coverage_records": 1150,
+      "outside_coverage_records": 1148,
       "retained_records": 0
     },
     {
@@ -57,12 +57,12 @@
       "country": "KZ",
       "file": "kz.txt",
       "url": "https://speedcamonline.ru/igo/kz/",
-      "records": 10822,
-      "sha256": "7c9a3c40597a23a0161424853a3ebc20c1d2f1e861f7b31cda8ad75fff2503e8",
+      "records": 10824,
+      "sha256": "a622049d1082d434f24d2ab2baff504ccaf33a61bb4975a357eea4f5cad959a0",
       "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
       "terms_url": "https://speedcamonline.ru/",
       "outside_coverage_records": 0,
-      "retained_records": 10812
+      "retained_records": 10814
     },
     {
       "id": "speedcamonline:BY:by",
@@ -75,7 +75,7 @@
       "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
       "terms_url": "https://speedcamonline.ru/",
       "outside_coverage_records": 0,
-      "retained_records": 94
+      "retained_records": 103
     },
     {
       "id": "osm:RU:osm_RU",
@@ -83,16 +83,16 @@
       "country": "RU",
       "file": "osm_RU.txt",
       "url": "https://download.geofabrik.de/russia-latest.osm.pbf",
-      "records": 11706,
-      "sha256": "62700bd7afc8ad4a6721587325ef2c1920eaf23d4ef16d823397d880c8523863",
+      "records": 11707,
+      "sha256": "be82044e5bc5c9bcbb37005306da5582eb32744bf30fc96334c2b01d74bf0ce4",
       "attribution": "© OpenStreetMap contributors",
       "license": "ODbL-1.0",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
       "attribution_url": "https://www.openstreetmap.org/copyright",
-      "snapshot_at": "2026-10-26T21:24:46Z",
+      "snapshot_at": "2026-10-27T21:23:59Z",
       "selection": "node[highway=speed_camera]; spot-speed only",
       "outside_coverage_records": 0,
-      "retained_records": 6891
+      "retained_records": 6893
     },
     {
       "id": "osm:KZ:osm_KZ",
@@ -106,7 +106,7 @@
       "license": "ODbL-1.0",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
       "attribution_url": "https://www.openstreetmap.org/copyright",
-      "snapshot_at": "2026-10-26T21:24:46Z",
+      "snapshot_at": "2026-10-27T21:23:59Z",
       "selection": "node[highway=speed_camera]; spot-speed only",
       "outside_coverage_records": 1,
       "retained_records": 189
@@ -123,19 +123,19 @@
       "license": "ODbL-1.0",
       "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
       "attribution_url": "https://www.openstreetmap.org/copyright",
-      "snapshot_at": "2026-10-26T21:24:46Z",
+      "snapshot_at": "2026-10-27T21:23:59Z",
       "selection": "node[highway=speed_camera]; spot-speed only",
       "outside_coverage_records": 0,
-      "retained_records": 288
+      "retained_records": 287
     }
   ],
-  "input_records": 167785,
-  "outside_coverage_records": 2349,
-  "duplicates_removed": 74106,
+  "input_records": 167780,
+  "outside_coverage_records": 2345,
+  "duplicates_removed": 74095,
   "country_counts": {
-    "RU": 78376,
-    "KZ": 11081,
-    "BY": 1873
+    "RU": 78374,
+    "KZ": 11083,
+    "BY": 1883
   },
   "country_count_method": "Geofabrik extract polygons; source country resolves border overlaps",
   "boundaries": [
