@@ -7070,6 +7070,20 @@
     "resolution": "prefer_explicit_dummy"
   },
   {
+    "lat": 54.8911278,
+    "lon": 83.0717262,
+    "distance_m": 0.0,
+    "source": "speedcamonline:RU:Rus",
+    "source_id": "85485",
+    "type": 192,
+    "other_source": "speedcamonline:RU:strelki",
+    "other_source_id": "75485",
+    "other_type": 200,
+    "other_lat": 54.8911278,
+    "other_lon": 83.0717262,
+    "resolution": "prefer_explicit_dummy"
+  },
+  {
     "lat": 54.89406,
     "lon": 52.30644,
     "distance_m": 0.0,
