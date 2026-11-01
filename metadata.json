@@ -1,29 +1,29 @@
 {
-  "version": "2026.10.31.0935",
-  "timestamp": 1793439307,
-  "total_cameras": 83935,
-  "bin_size_bytes": 1091155,
-  "bin_sha256": "be03e6a92a064176d9bc865cf91094d2c6dafa79f285a6ceead1009f74624d13",
-  "gz_size_bytes": 786282,
-  "gz_sha256": "c1faee457b3efd8195655c37844ac5b7abc1b97b5ab6c012295367fb77cc6d84",
+  "version": "2026.11.01.1025",
+  "timestamp": 1793528744,
+  "total_cameras": 83954,
+  "bin_size_bytes": 1091402,
+  "bin_sha256": "70e3f586e19d8356d3f1a3d45794c723e72e6d4bd4b8c7b1abefd91b4d28266c",
+  "gz_size_bytes": 786436,
+  "gz_sha256": "64a21110c72327a0d4ef3941bc2f7e7482410b3e6f1f2db7547ac0b44b2131f0",
   "frame_size": 13,
   "schema_version": 1,
   "synthetic": false,
   "scale_factor": 11930464.0,
   "type_counts": {
-    "68": 16883,
-    "192": 59690,
+    "68": 16887,
+    "192": 59703,
     "197": 3789,
-    "200": 3377,
+    "200": 3379,
     "227": 196
   },
   "dummy_classified_input_records": {
     "speedcamonline:RU:Rus": 2360,
-    "speedcamonline:RU:strelki": 2140,
+    "speedcamonline:RU:strelki": 2142,
     "speedcamonline:KZ:kz": 118,
     "speedcamonline:BY:by": 13
   },
-  "classification_conflicts": 1223,
+  "classification_conflicts": 1226,
   "supported_car_platforms": [
     "Chery Tiggo 4",
     "Chery Tiggo 7 Pro",
@@ -37,7 +37,7 @@
     "KZ",
     "BY"
   ],
-  "sources_fetched_at": 1793439302,
+  "sources_fetched_at": 1793528738,
   "sources": [
     {
       "id": "speedcamonline:RU:Rus",
@@ -45,17 +45,17 @@
       "country": "RU",
       "file": "Rus.txt",
       "url": "https://speedcamonline.ru/igo/Rus/",
-      "records": 74279,
-      "sha256": "507d9c74d20b6487ba8b755774444407fd89a4d619befec9d30a46c561afbada",
+      "records": 74309,
+      "sha256": "b94e5be5016b3992d8d6225669192993807c19f2290b17fd508b64d6fd52be33",
       "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
       "terms_url": "https://speedcamonline.ru/",
       "classification": {
         "file": "Rus.classification.json",
-        "sha256": "e72c7d3f43dadef48fa2b1772da27a883bcbd1ba96a02ac3af4a48b9745feb5b",
+        "sha256": "74fa23d530faacbcf28a9d7a3c526ec6f9633fb883d9d46aee6fc6052a81d954",
         "records": 2676,
         "listed_active_records": 2893,
         "unconfirmed_records": 217,
-        "fetched_at": 1793439042,
+        "fetched_at": 1793528474,
         "url": "https://speedcamonline.ru/index.php?map_selected=Rus&e300=on&sort=uuid&submit=+%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+",
         "kind": 300,
         "coordinate_checks": 0,
@@ -63,8 +63,8 @@
         "method": "SCO filtered table and public UUID cards; exact coordinates+speed+direction; deleted rows excluded",
         "applied_records": 2360
       },
-      "outside_coverage_records": 1196,
-      "retained_records": 72117
+      "outside_coverage_records": 1207,
+      "retained_records": 72134
     },
     {
       "id": "speedcamonline:RU:strelki",
@@ -72,26 +72,26 @@
       "country": "RU",
       "file": "strelki.txt",
       "url": "https://speedcamonline.ru/igo/strelki/",
-      "records": 68815,
-      "sha256": "14d32e9d38f46a3edb27ac1996d38467dfa914528dfb77d06f461cb27f1d1262",
+      "records": 68845,
+      "sha256": "b55d4b1b6d9845c5f30df408998d63ec63179fc57756832d810d9626f2478420",
       "attribution": "SpeedCamOnLine.ru — https://speedcamonline.ru/",
       "terms_url": "https://speedcamonline.ru/",
       "classification": {
         "file": "strelki.classification.json",
-        "sha256": "04cb321dce08a88474823306b686429d3498ed29068e0d895181f8dc1dea895e",
-        "records": 2167,
-        "listed_active_records": 2167,
+        "sha256": "534b6be91c4554f38fdfe76a056e28ae4267772f7c6435535b180e893fa189df",
+        "records": 2169,
+        "listed_active_records": 2169,
         "unconfirmed_records": 0,
-        "fetched_at": 1793439282,
+        "fetched_at": 1793528717,
         "url": "https://speedcamonline.ru/index.php?map_selected=strelki&e300=on&sort=uuid&submit=+%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+",
         "kind": 300,
-        "coordinate_checks": 1,
+        "coordinate_checks": 3,
         "reused_coordinates": 2166,
         "method": "SCO filtered table and public UUID cards; exact coordinates+speed+direction; deleted rows excluded",
-        "applied_records": 2140
+        "applied_records": 2142
       },
-      "outside_coverage_records": 1148,
-      "retained_records": 902
+      "outside_coverage_records": 1159,
+      "retained_records": 904
     },
     {
       "id": "speedcamonline:KZ:kz",
@@ -105,11 +105,11 @@
       "terms_url": "https://speedcamonline.ru/",
       "classification": {
         "file": "kz.classification.json",
-        "sha256": "3f55627cd47a67317fe8a79e2407eee5c31224aab233fa6e3cbef9ce1a700aaf",
+        "sha256": "ad7699eda6360dd1ebf387659fcf7d88a3d3740d06d2b0cfdef8b2231a824058",
         "records": 122,
         "listed_active_records": 122,
         "unconfirmed_records": 0,
-        "fetched_at": 1793439298,
+        "fetched_at": 1793528734,
         "url": "https://speedcamonline.ru/index.php?map_selected=kz&e300=on&sort=uuid&submit=+%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+",
         "kind": 300,
         "coordinate_checks": 0,
@@ -132,11 +132,11 @@
       "terms_url": "https://speedcamonline.ru/",
       "classification": {
         "file": "by.classification.json",
-        "sha256": "e59fc947b7453a9f59f8c94a8c766aae731cc513140d93d0b873eef784021126",
+        "sha256": "05db72cc3008c4472770c3fc3586fe9a9d72c934e6becef9d05fe6fe4b417676",
         "records": 13,
         "listed_active_records": 13,
         "unconfirmed_records": 0,
-        "fetched_at": 1793439302,
+        "fetched_at": 1793528738,
         "url": "https://speedcamonline.ru/index.php?map_selected=by&e300=on&sort=uuid&submit=+%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+",
         "kind": 300,
         "coordinate_checks": 0,
@@ -149,12 +149,12 @@
     }
   ],
   "source_profile": "sco-only",
-  "input_records": 155136,
-  "outside_coverage_records": 2344,
-  "duplicates_removed": 68857,
+  "input_records": 155196,
+  "outside_coverage_records": 2366,
+  "duplicates_removed": 68876,
   "country_counts": {
-    "RU": 71444,
-    "KZ": 10894,
+    "RU": 71459,
+    "KZ": 10898,
     "BY": 1597
   },
   "country_count_method": "Geofabrik extract polygons; source country resolves border overlaps",
@@ -181,5 +181,5 @@
   "custom_records": 0,
   "gibdd_records": 0,
   "source_archive": "source-feeds.zip",
-  "input_fingerprint": "acd46cd77ef6f0e863ac3822be3e5d10457b2cda7fcf5d4ccd9ab161638601aa"
+  "input_fingerprint": "5cbaab5b150460bfac7715130b4f667a35c5eed6064cff7bea81404d83afb339"
 }

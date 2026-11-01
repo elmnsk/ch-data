@@ -5124,6 +5124,48 @@
     "resolution": "prefer_explicit_dummy"
   },
   {
+    "lat": 53.70167,
+    "lon": 55.9464,
+    "distance_m": 0.0,
+    "source": "speedcamonline:RU:Rus",
+    "source_id": "80747",
+    "type": 192,
+    "other_source": "speedcamonline:RU:strelki",
+    "other_source_id": "70747",
+    "other_type": 200,
+    "other_lat": 53.70167,
+    "other_lon": 55.9464,
+    "resolution": "prefer_explicit_dummy"
+  },
+  {
+    "lat": 53.7017,
+    "lon": 55.94651,
+    "distance_m": 7.97,
+    "source": "speedcamonline:RU:Rus",
+    "source_id": "80748",
+    "type": 192,
+    "other_source": "speedcamonline:RU:strelki",
+    "other_source_id": "70747",
+    "other_type": 200,
+    "other_lat": 53.70167,
+    "other_lon": 55.9464,
+    "resolution": "retain_conflicting_records"
+  },
+  {
+    "lat": 53.7017,
+    "lon": 55.94651,
+    "distance_m": 0.0,
+    "source": "speedcamonline:RU:Rus",
+    "source_id": "80748",
+    "type": 192,
+    "other_source": "speedcamonline:RU:strelki",
+    "other_source_id": "70748",
+    "other_type": 200,
+    "other_lat": 53.7017,
+    "other_lon": 55.94651,
+    "resolution": "prefer_explicit_dummy"
+  },
+  {
     "lat": 53.7368054,
     "lon": 39.8937961,
     "distance_m": 0.0,
